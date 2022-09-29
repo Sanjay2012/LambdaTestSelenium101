@@ -6,7 +6,6 @@ import java.net.URL;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -65,7 +64,6 @@ public class LambdaTest_3 {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		} catch (Exception e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		Actions act = new Actions(driver);
@@ -80,11 +78,9 @@ public class LambdaTest_3 {
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
 			wait.until(ExpectedConditions.elementToBeClickable(inputFormLink));
-			// slider.click();
 			act.moveToElement(inputFormLink).click(inputFormLink).build().perform();
 
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -96,7 +92,6 @@ public class LambdaTest_3 {
 			wait.until(ExpectedConditions.presenceOfElementLocated((By) submitButton));
 			submitButton.click();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -125,7 +120,6 @@ public class LambdaTest_3 {
 
 			act.moveToElement(countryDropdown).click().sendKeys("United States");
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -148,7 +142,6 @@ public class LambdaTest_3 {
 			wait.until(ExpectedConditions.presenceOfElementLocated((By) submitButton));
 			submitButton.click();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println("STep 7: validate the success message on screen ---> Thanks for contacting us, will get back to you shortly.");

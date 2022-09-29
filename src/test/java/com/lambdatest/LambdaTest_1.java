@@ -63,7 +63,6 @@ public class LambdaTest_1 {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		} catch (Exception e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		act = new Actions(driver);
@@ -77,7 +76,6 @@ public class LambdaTest_1 {
 			// formLink.click();
 			act.moveToElement(formLink).click(formLink).build().perform();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

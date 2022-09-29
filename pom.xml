@@ -50,7 +50,6 @@
 				</executions>
 				<configuration>
 					<suiteXmlFiles>
-					<suiteXmlFile>testng.xml</suiteXmlFile>
 						<suiteXmlFile>parallel.xml</suiteXmlFile>
 						<suiteXmlFile>single.xml</suiteXmlFile>
 					</suiteXmlFiles>

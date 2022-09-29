@@ -1,0 +1,6 @@
+#surefire_0
+#Thu Sep 29 23:41:33 IST 2022
+basedir=C\:\\Users\\Dell\\eclipse-workspace5\\LambdaTest-Selenium101
+surefire.suiteXmlFiles=parallel.xml,single.xml
+user.dir=C\:\\Users\\Dell\\eclipse-workspace5\\LambdaTest-Selenium101
+localRepository=C\:\\Users\\Dell\\.m2\\repository
