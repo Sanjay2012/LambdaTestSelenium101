@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="parallel Test">
+	<test thread-count="3" parallel="tests" name="Test">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="version" value="88.0" />
+		<parameter name="platform" value="Windows 10" />
+		<classes>
+			<class name="com.lambdatest.LambdaTest_1" />
+			<class name="com.lambdatest.LambdaTest_2" />
+			<class name="com.lambdatest.LambdaTest_3" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- parallel Test -->

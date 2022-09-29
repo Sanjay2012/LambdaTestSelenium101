@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="48.106" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Dell\eclipse-workspace5\LambdaTest-Selenium101"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Dell\eclipse-workspace5\LambdaTest-Selenium101"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\Dell\AppData\Local\Programs\Python\Python310\Lib\site-packages\;C:\Users\Dell\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Dell\AppData\Local\Programs\Python\Python310\;C:\Put a directory on PYTHONPATH here\Scripts\;C:\Put a directory on PYTHONPATH here\Lib\site-packages\;D:\Softwares\gradle-6.6\bin;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Program Files\Java\jre1.8.0_311\bin;C:\Users\Dell\AppData\Roaming\npm;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="56.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="surefire.suiteXmlFiles" value="testng.xml"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="user.name" value="Dell"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dsurefire.suiteXmlFiles=testng.xml"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="33.365">
+    <failure message="The following asserts failed:&#10;	expected [95] but found [94]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [95] but found [94]
+	at com.lambdatest.LambdaTest_2.HandlingSliderBar(LambdaTest_2.java:113)
+</failure>
+    <system-out><![CDATA[<===== Start of Test Method =====>
+Step 1:Open LambdaTests Selenium Playground form
+<---Lambda Test Second Scenario Handling Slider Bar Started ---->
+Step 1: click Drag and Drop Sliders under Progress Bars and Sliders.
+Step 3: Select the slider Default value 15.
+Step 4: drag the bar to make it 95
+Step 5: validating whether the range value shows 95.
+The slider moved horizontal right at value of :94
+Lambda Test Second Scenario Ended
+]]></system-out>
+    <system-err><![CDATA[Sep 29, 2022 11:11:12 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 29, 2022 11:11:13 PM org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [build, console, name, network, platform, plugin, seCdp, version, video, visual, w3c]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Sep 29, 2022 11:11:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Sep 29, 2022 11:11:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [build, console, name, network, platform, plugin, seCdp, version, video, visual, w3c]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+]]></system-err>
+  </testcase>
+</testsuite>
