@@ -84,7 +84,7 @@ public class LambdaTest_3 {
 			e.printStackTrace();
 		}
 
-		// 3. Click “Submit” without filling in any information in the form.
+		// 3. Click on Submit button without filling in any information in the form.
 		System.out.println("Step 3: Click on Submit without filling in any information in the form."); 
 		WebElement submitButton = driver.findElement(By.cssSelector("button[type='submit']"));
 		try {
