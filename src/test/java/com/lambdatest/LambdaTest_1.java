@@ -86,17 +86,17 @@ public class LambdaTest_1 {
 		String ExpectedMessage = "Welcome to LambdaTest";
 
 		// 5. Use this variable to enter values in the “Enter Message” text box.
-		driver.findElement(By.xpath("//input[@id='user-message']")).sendKeys(ExpectedMessage);
+		driver.findElement(By.xpath("//input[@type=\"text\"]")).sendKeys(ExpectedMessage);
 
 		// 6. Click “Get Checked Value”.
-		driver.findElement(By.xpath("//button[@id='showInput']")).click();
+		driver.findElement(By.cssSelector("#showInput")).click();
 
 		/**
 		 * 7. Validate whether the same text message is displayed in the right-hand
 		 * panel under the “Your Message:” section.
 		 */
 
-		String ActualMessage = driver.findElement(By.xpath("//div[@id=\"user-message\"]//p[@id='message']")).getText();
+		String ActualMessage = driver.findElement(By.className("mt-20")).getText();
 
 		soft.assertEquals(ActualMessage, ExpectedMessage);
 
