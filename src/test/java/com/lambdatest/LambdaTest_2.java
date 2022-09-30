@@ -101,11 +101,12 @@ public class LambdaTest_2 {
 			}
 		
 		//5. validating whether the range value shows 95.
-		System.out.println("Step 5: validating whether the range value shows 95."); 
-		String expexted = "95";
-		String actual = driver.findElement(By.xpath("//output[@id='rangeSuccess']")).getText();
-		//System.out.println("The slider moved horizontal right at value of :" + actual);
-	     //soft.assertEquals(actual, expexted);
+		System.out.println("Step 5: validating whether the range value shows 95.");
+		
+		/*String actual = driver.findElement(By.xpath("//output[@id='rangeSuccess']")).getText();
+		System.out.println("The slider moved horizontal right at value of :" + actual);
+	     soft.assertEquals(actual, 95);*/
+		
 		System.out.println("Lambda Test Second Scenario Ended");
 	soft.assertAll();
 }
