@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T13:05:23 IST" name="Suite" finished-at="2022-09-30T13:11:49 IST" duration-ms="385806">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T13:05:23 IST" name="Chrome Browser Testing" finished-at="2022-09-30T13:06:56 IST" duration-ms="92332">
+      <class name="com.lambdatest.LambdaTest_1">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_1@5af97850]" started-at="2022-09-30T13:05:23 IST" name="setup" finished-at="2022-09-30T13:05:36 IST" duration-ms="13075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_1.EnterAndValidateMessage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@31228d83]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnterAndValidateMessage()[pri:0, instance:com.lambdatest.LambdaTest_1@5af97850]" started-at="2022-09-30T13:05:36 IST" name="EnterAndValidateMessage" finished-at="2022-09-30T13:05:47 IST" duration-ms="10434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAndValidateMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_1@5af97850]" started-at="2022-09-30T13:05:47 IST" name="tearDown" finished-at="2022-09-30T13:05:49 IST" duration-ms="1939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_1 -->
+      <class name="com.lambdatest.LambdaTest_2">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_2@7a52f2a2]" started-at="2022-09-30T13:05:49 IST" name="setup" finished-at="2022-09-30T13:05:57 IST" duration-ms="8112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_2.HandlingSliderBar() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@31228d83]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HandlingSliderBar()[pri:0, instance:com.lambdatest.LambdaTest_2@7a52f2a2]" started-at="2022-09-30T13:05:57 IST" name="HandlingSliderBar" finished-at="2022-09-30T13:06:22 IST" duration-ms="25319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingSliderBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_2@7a52f2a2]" started-at="2022-09-30T13:06:22 IST" name="tearDown" finished-at="2022-09-30T13:06:24 IST" duration-ms="1826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_2 -->
+      <class name="com.lambdatest.LambdaTest_3">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_3@78047b92]" started-at="2022-09-30T13:06:24 IST" name="setup" finished-at="2022-09-30T13:06:32 IST" duration-ms="8045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_3.FormFilling() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@31228d83]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FormFilling()[pri:0, instance:com.lambdatest.LambdaTest_3@78047b92]" started-at="2022-09-30T13:06:32 IST" name="FormFilling" finished-at="2022-09-30T13:06:54 IST" duration-ms="21583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFilling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_3@78047b92]" started-at="2022-09-30T13:06:54 IST" name="tearDown" finished-at="2022-09-30T13:06:56 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_3 -->
+    </test> <!-- Chrome Browser Testing -->
+    <test started-at="2022-09-30T13:06:56 IST" name="Edge Browser Testing" finished-at="2022-09-30T13:08:26 IST" duration-ms="89903">
+      <class name="com.lambdatest.LambdaTest_1">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_1@5bfa9431]" started-at="2022-09-30T13:06:56 IST" name="setup" finished-at="2022-09-30T13:07:03 IST" duration-ms="7113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_1.EnterAndValidateMessage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@22b82ddf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnterAndValidateMessage()[pri:0, instance:com.lambdatest.LambdaTest_1@5bfa9431]" started-at="2022-09-30T13:07:03 IST" name="EnterAndValidateMessage" finished-at="2022-09-30T13:07:14 IST" duration-ms="11535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAndValidateMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_1@5bfa9431]" started-at="2022-09-30T13:07:14 IST" name="tearDown" finished-at="2022-09-30T13:07:16 IST" duration-ms="2062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_1 -->
+      <class name="com.lambdatest.LambdaTest_2">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_2@5db250b4]" started-at="2022-09-30T13:07:16 IST" name="setup" finished-at="2022-09-30T13:07:22 IST" duration-ms="5390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_2.HandlingSliderBar() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@22b82ddf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HandlingSliderBar()[pri:0, instance:com.lambdatest.LambdaTest_2@5db250b4]" started-at="2022-09-30T13:07:22 IST" name="HandlingSliderBar" finished-at="2022-09-30T13:07:51 IST" duration-ms="29292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingSliderBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_2@5db250b4]" started-at="2022-09-30T13:07:51 IST" name="tearDown" finished-at="2022-09-30T13:07:53 IST" duration-ms="2070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_2 -->
+      <class name="com.lambdatest.LambdaTest_3">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_3@223f3642]" started-at="2022-09-30T13:07:53 IST" name="setup" finished-at="2022-09-30T13:08:01 IST" duration-ms="7483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_3.FormFilling() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@22b82ddf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FormFilling()[pri:0, instance:com.lambdatest.LambdaTest_3@223f3642]" started-at="2022-09-30T13:08:01 IST" name="FormFilling" finished-at="2022-09-30T13:08:23 IST" duration-ms="22420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFilling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_3@223f3642]" started-at="2022-09-30T13:08:23 IST" name="tearDown" finished-at="2022-09-30T13:08:26 IST" duration-ms="2530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_3 -->
+    </test> <!-- Edge Browser Testing -->
+    <test started-at="2022-09-30T13:08:26 IST" name="Firefox Browser Testing" finished-at="2022-09-30T13:09:49 IST" duration-ms="82900">
+      <class name="com.lambdatest.LambdaTest_1">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_1@233fe9b6]" started-at="2022-09-30T13:08:26 IST" name="setup" finished-at="2022-09-30T13:08:32 IST" duration-ms="6476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_1.EnterAndValidateMessage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@28bf82d9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnterAndValidateMessage()[pri:0, instance:com.lambdatest.LambdaTest_1@233fe9b6]" started-at="2022-09-30T13:08:32 IST" name="EnterAndValidateMessage" finished-at="2022-09-30T13:08:41 IST" duration-ms="8903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAndValidateMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_1@233fe9b6]" started-at="2022-09-30T13:08:41 IST" name="tearDown" finished-at="2022-09-30T13:08:43 IST" duration-ms="2225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_1 -->
+      <class name="com.lambdatest.LambdaTest_2">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_2@d706f19]" started-at="2022-09-30T13:08:43 IST" name="setup" finished-at="2022-09-30T13:08:50 IST" duration-ms="6757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_2.HandlingSliderBar() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@28bf82d9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HandlingSliderBar()[pri:0, instance:com.lambdatest.LambdaTest_2@d706f19]" started-at="2022-09-30T13:08:50 IST" name="HandlingSliderBar" finished-at="2022-09-30T13:09:18 IST" duration-ms="28152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingSliderBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_2@d706f19]" started-at="2022-09-30T13:09:18 IST" name="tearDown" finished-at="2022-09-30T13:09:21 IST" duration-ms="2546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_2 -->
+      <class name="com.lambdatest.LambdaTest_3">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_3@30b7c004]" started-at="2022-09-30T13:09:21 IST" name="setup" finished-at="2022-09-30T13:09:27 IST" duration-ms="6100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_3.FormFilling() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@28bf82d9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FormFilling()[pri:0, instance:com.lambdatest.LambdaTest_3@30b7c004]" started-at="2022-09-30T13:09:27 IST" name="FormFilling" finished-at="2022-09-30T13:09:46 IST" duration-ms="19470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFilling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_3@30b7c004]" started-at="2022-09-30T13:09:46 IST" name="tearDown" finished-at="2022-09-30T13:09:49 IST" duration-ms="2264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_3 -->
+    </test> <!-- Firefox Browser Testing -->
+    <test started-at="2022-09-30T13:09:49 IST" name="Internet Explorer Testing" finished-at="2022-09-30T13:11:49 IST" duration-ms="120558">
+      <class name="com.lambdatest.LambdaTest_1">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_1@29176cc1]" started-at="2022-09-30T13:09:49 IST" name="setup" finished-at="2022-09-30T13:09:57 IST" duration-ms="8344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_1.EnterAndValidateMessage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@44ccd75c]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnterAndValidateMessage()[pri:0, instance:com.lambdatest.LambdaTest_1@29176cc1]" started-at="2022-09-30T13:09:57 IST" name="EnterAndValidateMessage" finished-at="2022-09-30T13:10:26 IST" duration-ms="28985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAndValidateMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_1@29176cc1]" started-at="2022-09-30T13:10:26 IST" name="tearDown" finished-at="2022-09-30T13:10:28 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_1 -->
+      <class name="com.lambdatest.LambdaTest_2">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_2@2f177a4b]" started-at="2022-09-30T13:10:28 IST" name="setup" finished-at="2022-09-30T13:10:36 IST" duration-ms="7895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_2.HandlingSliderBar() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@44ccd75c]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HandlingSliderBar()[pri:0, instance:com.lambdatest.LambdaTest_2@2f177a4b]" started-at="2022-09-30T13:10:36 IST" name="HandlingSliderBar" finished-at="2022-09-30T13:11:12 IST" duration-ms="36353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingSliderBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_2@2f177a4b]" started-at="2022-09-30T13:11:12 IST" name="tearDown" finished-at="2022-09-30T13:11:14 IST" duration-ms="1962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_2 -->
+      <class name="com.lambdatest.LambdaTest_3">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_3@4278a03f]" started-at="2022-09-30T13:11:14 IST" name="setup" finished-at="2022-09-30T13:11:21 IST" duration-ms="6722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_3.FormFilling() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@44ccd75c]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FormFilling()[pri:0, instance:com.lambdatest.LambdaTest_3@4278a03f]" started-at="2022-09-30T13:11:21 IST" name="FormFilling" finished-at="2022-09-30T13:11:47 IST" duration-ms="26398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFilling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_3@4278a03f]" started-at="2022-09-30T13:11:47 IST" name="tearDown" finished-at="2022-09-30T13:11:49 IST" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_3 -->
+    </test> <!-- Internet Explorer Testing -->
+  </suite> <!-- Suite -->
+  <suite started-at="2022-09-30T13:11:49 IST" name="parallel Test" finished-at="2022-09-30T13:13:25 IST" duration-ms="96026">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T13:11:49 IST" name="Test" finished-at="2022-09-30T13:13:25 IST" duration-ms="96026">
+      <class name="com.lambdatest.LambdaTest_1">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_1@1fe20588]" started-at="2022-09-30T13:11:49 IST" name="setup" finished-at="2022-09-30T13:11:57 IST" duration-ms="7845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_1.EnterAndValidateMessage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@61a704d3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnterAndValidateMessage()[pri:0, instance:com.lambdatest.LambdaTest_1@1fe20588]" started-at="2022-09-30T13:11:57 IST" name="EnterAndValidateMessage" finished-at="2022-09-30T13:12:10 IST" duration-ms="12690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAndValidateMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_1@1fe20588]" started-at="2022-09-30T13:12:10 IST" name="tearDown" finished-at="2022-09-30T13:12:12 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_1 -->
+      <class name="com.lambdatest.LambdaTest_2">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_2@6ce139a4]" started-at="2022-09-30T13:12:12 IST" name="setup" finished-at="2022-09-30T13:12:19 IST" duration-ms="7648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_2.HandlingSliderBar() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@61a704d3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HandlingSliderBar()[pri:0, instance:com.lambdatest.LambdaTest_2@6ce139a4]" started-at="2022-09-30T13:12:19 IST" name="HandlingSliderBar" finished-at="2022-09-30T13:12:50 IST" duration-ms="30696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingSliderBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_2@6ce139a4]" started-at="2022-09-30T13:12:50 IST" name="tearDown" finished-at="2022-09-30T13:12:52 IST" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_2 -->
+      <class name="com.lambdatest.LambdaTest_3">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.LambdaTest_3@6973bf95]" started-at="2022-09-30T13:12:52 IST" name="setup" finished-at="2022-09-30T13:13:01 IST" duration-ms="8629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambdatest.LambdaTest_3.FormFilling() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@61a704d3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FormFilling()[pri:0, instance:com.lambdatest.LambdaTest_3@6973bf95]" started-at="2022-09-30T13:13:01 IST" name="FormFilling" finished-at="2022-09-30T13:13:23 IST" duration-ms="22698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFilling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.LambdaTest_3@6973bf95]" started-at="2022-09-30T13:13:23 IST" name="tearDown" finished-at="2022-09-30T13:13:25 IST" duration-ms="1897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.LambdaTest_3 -->
+    </test> <!-- Test -->
+  </suite> <!-- parallel Test -->
+</testng-results>

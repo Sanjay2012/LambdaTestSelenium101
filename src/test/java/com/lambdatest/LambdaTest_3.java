@@ -105,7 +105,7 @@ public class LambdaTest_3 {
 		
 		System.out.println("Step 5 : Fill in Name, Email, and other fields. locators of all form fields"); 
 		
-		driver.findElement(By.xpath("//input[@id='name']")).sendKeys("Sanjay Waware");
+		driver.findElement(By.cssSelector("#name")).sendKeys("Sanjay Waware");
 
 		driver.findElement(By.id("inputEmail4")).sendKeys("sanjay.waware@zensar.com");
 
