@@ -96,7 +96,7 @@ public class LambdaTest_1 {
 		 * panel under the “Your Message:” section.
 		 */
 
-		String ActualMessage = driver.findElement(By.className("mt-20")).getText();
+		String ActualMessage = driver.findElement(By.cssSelector("#message")).getText();
 
 		soft.assertEquals(ActualMessage, ExpectedMessage);
 
