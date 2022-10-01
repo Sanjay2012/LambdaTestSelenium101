@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="483.397" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="723.412" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.2+10"/>
@@ -63,19 +63,28 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="10.439"/>
-  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="11.536"/>
-  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="8.903"/>
-  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="28.985"/>
-  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="12.69"/>
-  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="25.329"/>
-  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="29.282"/>
-  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="28.159"/>
-  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="36.36"/>
-  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="30.7"/>
-  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="21.582"/>
-  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="22.418"/>
-  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="19.47"/>
-  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="26.4"/>
-  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="22.699"/>
+  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="10.87"/>
+  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="11.453"/>
+  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="27.523"/>
+  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="10.66"/>
+  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="9.29"/>
+  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="12.154"/>
+  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="8.293"/>
+  <testcase name="EnterAndValidateMessage" classname="com.lambdatest.LambdaTest_1" time="10.919"/>
+  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="50.109"/>
+  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="52.752"/>
+  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="53.808"/>
+  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="59.049"/>
+  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="25.294"/>
+  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="0.813"/>
+  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="25.663"/>
+  <testcase name="HandlingSliderBar" classname="com.lambdatest.LambdaTest_2" time="15.354"/>
+  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="24.285"/>
+  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="21.364"/>
+  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="18.941"/>
+  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="20.179"/>
+  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="19.568"/>
+  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="20.111"/>
+  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="15.07"/>
+  <testcase name="FormFilling" classname="com.lambdatest.LambdaTest_3" time="23.317"/>
 </testsuite>

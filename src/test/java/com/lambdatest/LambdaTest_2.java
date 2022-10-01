@@ -51,7 +51,7 @@ public class LambdaTest_2 {
     }
 
     @Test (testName="Lambda Test second Scenario")
-	public void HandlingSliderBar() throws InterruptedException {
+	public <IWebElement> void HandlingSliderBar() throws InterruptedException {
     	//Opening browser with the given URL and navigate to Registration Page
        	//1. Open LambdaTest’s Selenium Playground from
        //	https://www.lambdatest.com/selenium-playground
@@ -84,17 +84,23 @@ public class LambdaTest_2 {
 
     System.out.println("Step 3: Select the slider Default value 15.");
 	
-		WebElement slider_bar = driver.findElement(By.xpath("//input[@value='15']"));
-		soft.assertTrue(slider_bar.isDisplayed());
+//		WebElement slider_bar = driver.findElement(By.xpath("//input[@value='15']"));
+//		soft.assertTrue(slider_bar.isDisplayed());
 		
 			//4. drag the bar to make it 95 
 		System.out.println("Step 4: drag the bar to make it 95");
 			try {
 				Actions act = new Actions(driver);
-				act.click(slider_bar).perform();
-			for (int i = 0; i < 45; i++) {
-				act.keyDown(Keys.SHIFT).keyDown(Keys.ARROW_RIGHT).build().perform();
-			}
+				WebElement slider_bar = driver.findElement(By.xpath("//input[@value='15']"));
+				soft.assertTrue(slider_bar.isDisplayed());
+				 
+				act.moveToElement(slider_bar, 454, 600).click();
+		        int i = 0;
+		        while (i < 80)
+		        {
+		        	slider_bar.sendKeys(Keys.RIGHT);
+		            ++i;
+		        } 
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -103,9 +109,9 @@ public class LambdaTest_2 {
 		//5. validating whether the range value shows 95.
 		System.out.println("Step 5: validating whether the range value shows 95.");
 		
-		/*String actual = driver.findElement(By.xpath("//output[@id='rangeSuccess']")).getText();
+		String actual = driver.findElement(By.xpath("//output[@id='rangeSuccess']")).getText();
 		System.out.println("The slider moved horizontal right at value of :" + actual);
-	     soft.assertEquals(actual, 95);*/
+	     soft.assertEquals(actual, "95");
 		
 		System.out.println("Lambda Test Second Scenario Ended");
 	soft.assertAll();

@@ -43,7 +43,7 @@ public class LambdaTest_1 {
 		caps.setCapability("visual", true); // To enable step by step screenshot
 		caps.setCapability("video", true); // To enable video recording
 		caps.setCapability("console", true); // To capture console logs
-		caps.setCapability("build", "TestNG With Java");
+		caps.setCapability("build", "Selenium test-1");
 		caps.setCapability("name", m.getName() + this.getClass().getName());
 		caps.setCapability("plugin", "git-testng");
 
@@ -86,10 +86,15 @@ public class LambdaTest_1 {
 		String ExpectedMessage = "Welcome to LambdaTest";
 
 		// 5. Use this variable to enter values in the “Enter Message” text box.
-		driver.findElement(By.xpath("//input[@type=\"text\"]")).sendKeys(ExpectedMessage);
-
-		// 6. Click “Get Checked Value”.
-		driver.findElement(By.cssSelector("#showInput")).click();
+		try {
+			WebElement textBox = driver.findElement(By.xpath("//input[@id='user-message']"));
+			textBox.sendKeys(ExpectedMessage);
+			// 6. Click “Get Checked Value”.
+			driver.findElement(By.cssSelector("#showInput")).click();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 		/**
 		 * 7. Validate whether the same text message is displayed in the right-hand
